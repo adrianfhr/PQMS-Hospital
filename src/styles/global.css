@@ -1,0 +1,18 @@
+@tailwind base; /* Tailwind's base styles, if any */
+@tailwind components; /* Tailwind's component classes, if any */
+@tailwind utilities; /* Tailwind's utility classes, if any */
+
+
+@layer components {
+    @font-face {
+        font-family: 'Yesava-One';
+        src: url('../assets/fonts/yesevaOne-regular.ttf');
+    }
+    @font-face {
+        font-family: 'Poppins';
+        src: url('../assets/fonts/poppins-regular.ttf');
+    }
+}
+
+
+  
