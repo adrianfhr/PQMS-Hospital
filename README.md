@@ -168,4 +168,8 @@ Capture Screen:
 | f657c9ba-690a-4010-b51a-f2becc58c05e | 2023-11-23 17:12:11.08929+00  | Anindita Putri Paramarta | anindita.paramarta@gmail.com  | Jl Puri Indah No.24 Jatinangor |
 
 ## Deployment
-[PQMS Hospital](https://pqms-hospital.vercel.app//).
+Berikut adalah deployment dari PQMS Hospital [PQMS Hospital](https://pqms-hospital.vercel.app//).
+
+## Unit Testing
+Berikut adalah unit testing dari PQMS Hospital
+[Unit Testing PQMS Hospital](https://docs.google.com/spreadsheets/d/1QDErg_hbgulu23P3BfCkGSTOaAP67iAJYMvKR06-Iws/edit?usp=sharing).
