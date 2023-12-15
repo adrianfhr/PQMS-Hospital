@@ -70,7 +70,7 @@ const Liveantrian: React.FC = () => {
             </Link>
             <div className='mr-1'> &gt; </div>
             <Link href="/liveantrian">
-              <div className='mr-1 text-light-blue'>Cek Live Antrian</div>
+              <div className='mr-1 text-light-blue'>Live Antrian</div>
             </Link>
           </div>
 

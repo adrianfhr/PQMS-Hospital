@@ -37,6 +37,7 @@ const Login = () => {
           email: email,
           password: password,
         });
+
   
         if (error) {
           throw error;
@@ -67,6 +68,7 @@ const Login = () => {
         }
       }
     );
+
   };
   
   function getErrorMessage(error : any) {

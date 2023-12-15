@@ -287,14 +287,14 @@ const Kalender: React.FC<KalenderProps> = ({ today, jadwal, user, doctor }) => {
         onRequestClose={() => setShowModal(false)}
         //ukurannya disesuaikan dengan ukuran konten
         contentLabel="Peringatan"
-        className="text-white h-full w-full flex justify-center items-center"
+        className="text-black h-full w-full flex justify-center items-center"
       >
-        <div className=" bg-dark-blue p-4 rounded-lg">
+        <div className=" bg-black rounded-lg">
           <h2 className="text-lg font-semibold mb-4">Peringatan</h2>
           <p>Anda belum login, silahkan login terlebih dahulu.</p>
           <div className="flex justify-end mt-6">
             <button
-              className="px-4 py-2 bg-light-blue text-white rounded-md hover:bg-opacity-80"
+              className="px-4 py-2 bg-light-blue text-black rounded-md hover:bg-opacity-80"
               onClick={() => {
                 setShowModal(false);
                 //save redirect to local storage

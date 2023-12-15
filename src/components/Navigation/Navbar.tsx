@@ -46,7 +46,8 @@ const Navbar: React.FC = () => {
     {
       text: 'Beri Masukan',
       destination: '/feedback'
-    }
+    },
+
   ];
 
   // Toggle Navbar
@@ -55,6 +56,7 @@ const Navbar: React.FC = () => {
   const handleOpen = () => {
     if (isOpen) {
       setIsOpen(false);
+      console.log(sessionState);
     } else {
       setIsOpen(true);
     }
@@ -136,18 +138,21 @@ const handleLogout = async () => {
 
               {/* Opsi Login/Logout */}
               {sessionState ? (
-                        <div className="flex items-center">
-                        <button className="hover:bg-slate-500 hover:text-white transition-all w-full flex items-center "onClick={handleLogout}>
-                            <div
-                                className="pl-10 py-3 text-white text-[18px] font-semibold cursor-pointer font-poppins"
-                                
-                            > 
-                                Logout
-                            </div>
-                            <div className="w-[18px] h-[18px] ml-2">
-                                <Image src="/images/logo-logout.png" alt="logo login" width={18} height={18} />
-                            </div>
-                        </button>
+                        <div>
+                           <NavItem text={"Profil"} destination={"/user"} />
+                          <div className="flex items-center">
+                          <button className="hover:bg-slate-500 hover:text-white transition-all w-full flex items-center "onClick={handleLogout}>
+                              <div
+                                  className="pl-10 py-3 text-white text-[18px] font-semibold cursor-pointer font-poppins"
+                                  
+                                  > 
+                                  Logout
+                              </div>
+                              <div className="w-[18px] h-[18px] ml-2">
+                                  <Image src="/images/logo-logout.png" alt="logo login" width={18} height={18} />
+                              </div>
+                          </button>
+                          </div>
                         </div>
                     ) : (
                         <div className="flex items-center">
